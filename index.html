@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Happy_Bites</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+            rel="stylesheet" />
+    </head>
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+            <a class="navbar-brand" href="#">Happy_Bites</a>
+            <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end"
+                id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link"
+                            href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About
+                            Us</a></li>
+                    <li class="nav-item"><a class="nav-link"
+                            href="#menu">Menu</a></li>
+
+                    <li class="nav-item"><a class="nav-link"
+                            href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section
+            class="hero d-flex align-items-center justify-content-center text-white text-center">
+            <div>
+                <h1 class="display-4">Taste the Difference</h1>
+                <a href="#menu" class="btn btn-light mt-3">Explore Menu</a>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="img/PEOPLE.jfif" class="img-fluid rounded"
+                        alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <h3>About Us</h3>
+                    <p>At Happy_Bites, we believe that food is more than just
+                        sustenance – it's an experience. Founded with a passion
+                        for great taste and warm hospitality, we are a
+                        family-run restaurant dedicated to serving flavorful,
+                        freshly prepared meals that bring people
+                        together.<br><b>Happy_Bites – Sehemu ambayo wateja ni
+                            familia.</b></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="container my-5">
+            <h2 class="text-center mb-4">Our Menu</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Chicken Biryani.jfif" class="card-img-top"
+                            alt="Dish 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Chicken Biryani</h5>
+                            <p class="card-text">Juicy grilled chicken with well
+                                fried rice.</p>
+                            <p class="text-muted">ksh 1200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/platter.jfif" class="card-img-top"
+                            alt="Dish 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Bugger Platter</h5>
+                            <p class="card-text">Enjoy a large platter with
+                                chicken burger, wings and chipss</p>
+                            <p class="text-muted">Ksh 2200</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/Tonkotsu Ramen.jfif" class="card-img-top"
+                            alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Tonkutsu Ramen</h5>
+                            <p class="card-text">Enjoy a tasteful plate of ramen
+                            </p>
+                            <p class="text-muted">ksh 1180</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container my-5">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" id="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" id="email" class="form-control"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" class="form-control" rows="4"
+                        required></textarea>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-3 mt-5">
+            <p>&copy; 2025 Happy_Bites</p>
+            <div>
+                <i class="bi bi-facebook me-2"></i>
+                <i class="bi bi-instagram me-2"></i>
+                <i class="bi bi-twitter"></i>
+            </div>
+        </footer>
+    </body>
+</html>

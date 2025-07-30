@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ff6347; 
+}
+
+.navbar-nav .nav-link {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Hero part */
+.hero {
+  height: 100vh;
+  background: url("img/BACKGOUND3.jfif") no-repeat center center/cover;
+  position: relative;
+  padding: 60px 20px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Makes text readable on image */
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.hero .btn {
+  background-color: #ff6347;
+  border: none;
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #e5533c;
+  transform: scale(1.05);
+}
+
+/*about &main part styling */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body p.text-muted {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+#about img {
+  border-radius: 10px;
+}
+form .form-control {
+  border-radius: 0;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+}
+
+footer i {
+  font-size: 1.3rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
